@@ -1,8 +1,8 @@
 # EXERCISE 1: Beerfuls of fungi
 
-To start today's exercise, you will work with a 18S rRNA amplicon sequencing summary table including the number of reads that map to the sequences of various fungal species in multiple types of beer. Download the exercise files from Blackboard and open a new Jupyter notebook. Write a report with answers to the questions below (remember that reflection and clarity are important aspects of it).
+To start today's exercise, you will work with a 18S rRNA amplicon sequencing summary table including the number of reads that map to the sequences of various fungal species in multiple types of beer. Download the exercise file from [here](beer_decoded.csv) and open a new Jupyter notebook. Write a report with answers to the questions below (remember that reflection and clarity are important aspects of it).
 
-Load the CSV file called “beer_decoded.csv” from [here](beer_decoded.csv). Look at the contents of that file and answer the following questions:
+Load the CSV file called “beer_decoded.csv”. Look at the contents of that file and answer the following questions:
 
 <ol type="a">
          <li>How many different beers were analysed?</li>
