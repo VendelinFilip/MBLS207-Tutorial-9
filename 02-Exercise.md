@@ -2,7 +2,9 @@
 
 Let's now explore a new dataset that includes metrics from three different species of flowering plants. This is a classical dataset that was made famous by the British statistician Ronald Fisher in 1946. Our goal will be to build a good classifier that allows us to predict the correct species based on the flower shape.
 
-&lt;img&gt;Three images of flowers labeled Iris versicolor, Iris setosa, and Iris virginica. The Iris versicolor image has labels for Sepal and Petal.&lt;/img&gt;
+<p align="center">
+    <img src="./images/mbls207_tutorial9_1.png" width="500">
+</p>
 
 To start, load the dataset:
 ```python
@@ -42,11 +44,7 @@ from sklearn.model_selection import KFold
 from sklearn.model_selection import cross_val_score
 kfold=KFold(n_splits=5, shuffle=True, random_state=0)
 cross_val_score(knn, iris.data, iris.target, cv=kfold)
-
----
-
-
-## Page 4
+```
 
 How variable are the results?
 
@@ -65,3 +63,4 @@ svc = SVC(kernel='linear')
 svc.fit(X_train, y_train)
 kfold=KFold(n_splits=5, shuffle=True, random_state=0)
 cross_val_score(svc, iris.data, iris.target, cv=kfold)
+```
